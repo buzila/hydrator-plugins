@@ -87,6 +87,10 @@
         </exclusion>
         <exclusion>
           <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>log4j</groupId>
           <artifactId>apache-log4j-extras</artifactId>
         </exclusion>
       </exclusions>
@@ -123,6 +127,10 @@
         <exclusion>
           <groupId>org.slf4j</groupId>
           <artifactId>slf4j-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
         </exclusion>
         <exclusion>
           <groupId>log4j</groupId>
