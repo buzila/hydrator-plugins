@@ -27,10 +27,14 @@
 	path = kafka-plugins
 	url = ../../data-integrations/kafka-plugins
 	branch = develop
-[submodule "amazon-s3-plugins"]
-	path = amazon-s3-plugins
-	url = ../../data-integrations/amazon-s3-plugins
-	branch = develop
+#[submodule "amazon-s3-plugins"]
+#	path = amazon-s3-plugins
+#	url = ../../data-integrations/amazon-s3-plugins
+#	branch = develop
+[submodule "yandex-s3-plugins"]
+	path = yandex-s3-plugins
+	url = ../../buzila/amazon-s3-plugins
+	branch = feature/yandex
 [submodule "condition-plugins"]
 	path = condition-plugins
 	url = ../../data-integrations/condition-plugins.git
