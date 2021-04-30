@@ -31,10 +31,6 @@
 	path = amazon-s3-plugins
 	url = ../../buzila/amazon-s3-plugins
 	branch = develop
-[submodule "yandex-s3-plugins"]
-	path = yandex-s3-plugins
-	url = ../../buzila/amazon-s3-plugins
-	branch = feature/yandex
 [submodule "condition-plugins"]
 	path = condition-plugins
 	url = ../../data-integrations/condition-plugins.git
@@ -43,3 +39,7 @@
 	path = azure
 	url = ../../data-integrations/azure
 	branch = develop
+[submodule "yandex-s3-plugins"]
+	path = yandex-s3-plugins
+	url = https://github.com/buzila/amazon-s3-plugins.git
+	branch = feature/yandex
