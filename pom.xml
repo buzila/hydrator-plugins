@@ -931,6 +931,7 @@
         <module>google-cloud</module>
         <module>kafka-plugins</module>
         <module>amazon-s3-plugins</module>
+        <module>yandex-s3-plugins</module>
         <module>condition-plugins</module>
         <module>azure</module>
       </modules>
