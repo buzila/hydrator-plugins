@@ -17,8 +17,8 @@
 
 [submodule "wrangler-transform"]
 	path = wrangler-transform
-	url = ../../data-integrations/wrangler.git
-	branch = develop
+	url = ../../buzila/wrangler.git
+	branch = feature/dataproc13
 [submodule "google-cloud"]
 	path = google-cloud
 	url = ../../data-integrations/google-cloud
