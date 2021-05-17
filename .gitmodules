@@ -29,8 +29,8 @@
 	branch = develop
 [submodule "amazon-s3-plugins"]
 	path = amazon-s3-plugins
-	url = ../../buzila/amazon-s3-plugins
-	branch = develop
+	url =  https://github.com/buzila/amazon-s3-plugins.git
+	branch = feature/amazon-s3-on-yandex
 [submodule "condition-plugins"]
 	path = condition-plugins
 	url = ../../data-integrations/condition-plugins.git
