@@ -75,12 +75,12 @@
 
   <distributionManagement>
     <repository>
-      <id>sonatype.release</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+      <id>cdap-releases</id>
+      <url>http://nexus-repo-cdap.ru-central1.internal:8081/repository/cdap-releases</url>
     </repository>
     <snapshotRepository>
-      <id>sonatype.snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <id>cdap-snapshots</id>
+      <url>http://nexus-repo-cdap.ru-central1.internal:8081/repository/cdap-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
 
@@ -128,37 +128,6 @@
     <netty-http.version>1.5.0</netty-http.version>
     <spark1.version>1.6.3</spark1.version>
   </properties>
-
-  <repositories>
-    <repository>
-      <id>sonatype</id>
-      <url>https://oss.sonatype.org/content/groups/public</url>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-        <checksumPolicy>warn</checksumPolicy>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-        <updatePolicy>never</updatePolicy>
-        <checksumPolicy>warn</checksumPolicy>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>sonatype-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        <releases>
-            <enabled>false</enabled>
-            <updatePolicy>never</updatePolicy>
-            <checksumPolicy>warn</checksumPolicy>
-        </releases>
-        <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-            <checksumPolicy>warn</checksumPolicy>
-        </snapshots>
-    </repository>
-  </repositories>
 
   <dependencyManagement>
     <dependencies>
